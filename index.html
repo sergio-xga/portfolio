@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergio Gonzalez - Software Engineer</title>
+  <link rel="stylesheet" href="./stylesheets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-container">
+    <!-- Header/Navigation -->
+    <header class="game-header">
+      <div class="header-content">
+        <div class="player-info">
+          <div class="avatar-container">
+            <div class="pixel-avatar">
+              <div class="avatar-face"></div>
+            </div>
+          </div>
+          <div class="player-stats">
+            <h1 class="player-name">SERGIO.GONZALEZ</h1>
+            <div class="level-bar">
+              <span class="level-text">LVL 99 SOFTWARE ENGINEER</span>
+              <div class="xp-bar">
+                <div class="xp-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="game-nav">
+          <button class="nav-btn" data-screen="about">ABOUT</button>
+          <button class="nav-btn" data-screen="skills">SKILLS</button>
+          <button class="nav-btn" data-screen="experience">EXPERIENCE</button>
+          <button class="nav-btn" data-screen="projects">PROJECTS</button>
+          <button class="nav-btn" data-screen="contact">CONTACT</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Game Screen -->
+    <main class="game-screen">
+      <!-- About Screen -->
+      <section id="about-screen" class="screen active">
+        <div class="screen-content">
+          <div class="dialogue-box">
+            <div class="dialogue-header">
+              <span class="dialogue-title">PLAYER INFO</span>
+              <div class="window-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">□</span>
+                <span class="control close">✕</span>
+              </div>
+            </div>
+            <div class="dialogue-content">
+              <div class="character-sprite">
+                <div class="sprite-container">
+                  <div class="pixel-character"></div>
+                </div>
+              </div>
+              <div class="dialogue-text">
+                <p>
+                  Hello! I'm Sergio, a Technology Enthusiast from Ciudad Juarez, Chihuahua, Mexico.<br>
+                  I'm a proactive Software Engineer who loves solving problems and building amazing digital experiences.<br>
+                  When I'm not coding, you can find me playing soccer, hitting the gym, or exploring new technologies!
+                </p>
+                <div class="stats-grid">
+                  <div class="stat-item">
+                    <span class="stat-label">LOCATION:</span>
+                    <span class="stat-value">Ciudad Juarez, Chih, MX</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-label">STATUS:</span>
+                    <span class="stat-value">Hired by Zipdev</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-label">SPECIALTY:</span>
+                    <span class="stat-value">FULL-STACK WEB DEV</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Screen -->
+      <section id="skills-screen" class="screen">
+        <div class="screen-content">
+          <div class="dialogue-box">
+            <div class="dialogue-header">
+              <span class="dialogue-title">SKILL TREE</span>
+              <div class="window-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">□</span>
+                <span class="control close">✕</span>
+              </div>
+            </div>
+            <div class="dialogue-content">
+              <div class="skills-container">
+                <div class="skill-category">
+                  <h3 class="category-title">PROGRAMMING LANGUAGES</h3>
+                  <div class="skills-grid">
+                    <div class="skill-item">
+                      <span class="skill-name">RUBY</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                      <span class="skill-level">90%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">JAVASCRIPT</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+                      <span class="skill-level">70%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">HTML/CSS</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                      <span class="skill-level">85%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">PYTHON</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 20%"></div></div>
+                      <span class="skill-level">20%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h3 class="category-title">FRAMEWORKS & TOOLS</h3>
+                  <div class="skills-grid">
+                    <div class="skill-item">
+                      <span class="skill-name">RUBY ON RAILS</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                      <span class="skill-level">90%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">NODE.JS</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 60%"></div></div>
+                      <span class="skill-level">60%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">AWS</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                      <span class="skill-level">80%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">DOCKER</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
+                      <span class="skill-level">50%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">JQUERY</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+                      <span class="skill-level">70%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">BOOTSTRAP</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                      <span class="skill-level">80%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">REACT</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
+                      <span class="skill-level">50%</span>
+                    </div>
+                    <div class="skill-item">
+                      <span class="skill-name">HOTWIRE</span>
+                      <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+                      <span class="skill-level">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Screen -->
+      <section id="experience-screen" class="screen">
+        <div class="screen-content">
+          <div class="dialogue-box">
+            <div class="dialogue-header">
+              <span class="dialogue-title">QUEST LOG</span>
+              <div class="window-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">□</span>
+                <span class="control close">✕</span>
+              </div>
+            </div>
+            <div class="dialogue-content">
+              <div class="timeline-container">
+                <div class="quest-item completed">
+                  <div class="quest-icon">&#128187;</div>
+                  <div class="quest-details">
+                    <h4>Doctible Contractor (ZIPDEV)</h4>
+                    <p class="quest-description">Software Engineer at <a target="_blank" href="https://www.doctible.com">Doctible</a>. The #1 Rated Patient Engagement Software.</p>
+                    <span class="quest-reward">+1500 EXP | Ruby on Rails Mastery</span>
+                  </div>
+                </div>
+                <div class="quest-item completed">
+                  <div class="quest-icon">&#128421;</div>
+                  <div class="quest-details">
+                    <h4>UCSF CONTRACTOR (SND)</h4>
+                    <p class="quest-description">Software Engineer at UCSF's Eureka Platform.</p>
+                    <span class="quest-reward">+1500 EXP | Ruby on Rails Mastery</span>
+                  </div>
+                </div>
+                <div class="quest-item completed">
+                  <div class="quest-icon cert-badge">
+                    <img src="./images/portfolio/aws-certified-solutions-architect-associate.png" alt="AWS SAA Certification" class="cert-image">
+                  </div>
+                  <div class="quest-details">
+                    <h4>AWS CERTIFIED SAA</h4>
+                    <p class="quest-description">Achieved <a target="_blank" href="https://www.youracclaim.com/badges/cfa29ca3-4e08-4095-84d9-dd0e202cb43a/public_url">Solutions Architect Associate Certification</a></p>
+                    <span class="quest-reward">+500 EXP | Cloud Architecture</span>
+                  </div>
+                </div>
+                <div class="quest-item completed">
+                  <div class="quest-icon cert-badge">
+                    <img src="./images/portfolio/lfcs-linux-foundation-certified-systems-administrator.1.png" alt="LFCS Certification" class="cert-image">
+                  </div>
+                  <div class="quest-details">
+                    <h4>LINUX FOUNDATION CERTIFIED SYSADMIN</h4>
+                    <p class="quest-description">Certificate ID: <a target="_blank" href="https://www.youracclaim.com/badges/34269d91-5b4e-43f6-9300-268d99a8b8c1/public_url">LFCS-1600-001263-0100</a></p>
+                    <span class="quest-reward">+750 EXP | System Administration</span>
+                  </div>
+                </div>
+                <div class="quest-item completed">
+                  <div class="quest-icon">🚀</div>
+                  <div class="quest-details">
+                    <h4>TRANSTELCO (Now FLO NETWORKS)</h4>
+                    <p class="quest-description">Working here was the best education I've ever received, in all aspects, not only professional.</p>
+                    <span class="quest-reward">+2000 EXP | Leadership & Development</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Screen -->
+      <section id="projects-screen" class="screen">
+        <div class="screen-content">
+          <div class="dialogue-box">
+            <div class="dialogue-header">
+              <span class="dialogue-title">ITEM INVENTORY</span>
+              <div class="window-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">□</span>
+                <span class="control close">✕</span>
+              </div>
+            </div>
+            <div class="dialogue-content">
+              <div class="inventory-grid">
+                <div class="inventory-item" data-project="eureka">
+                  <div class="item-icon">🌐</div>
+                  <div class="item-details">
+                    <h4>EUREKA PLATFORM</h4>
+                    <p>Digital research platform built with Ruby on Rails</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">Rails</span>
+                      <span class="tag">JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="graphinator">
+                  <div class="item-icon">📊</div>
+                  <div class="item-details">
+                    <h4>GRAPHINATOR</h4>
+                    <p>Bandwidth and latency monitoring system</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">Node.js</span>
+                      <span class="tag">Graphite</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="devpower">
+                  <div class="item-icon">🚀</div>
+                  <div class="item-details">
+                    <h4>DEVPOWER</h4>
+                    <p>Development planning and tracking tool</p>
+                    <div class="item-tags">
+                      <span class="tag">NetSuite</span>
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="scrubbinator">
+                  <div class="item-icon">🛡️</div>
+                  <div class="item-details">
+                    <h4>SCRUBBINATOR</h4>
+                    <p>DDoS attack mitigation system</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">BGP</span>
+                      <span class="tag">ExaBGP</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="services">
+                  <div class="item-icon">👥</div>
+                  <div class="item-details">
+                    <h4>CUSTOMER PORTAL</h4>
+                    <p>Customer service monitoring platform</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">AWS</span>
+                      <span class="tag">API</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="econferences">
+                  <div class="item-icon">📞</div>
+                  <div class="item-details">
+                    <h4>ECONFERENCES</h4>
+                    <p>Asterisk conference bridge management</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">Asterisk</span>
+                      <span class="tag">WebSockets</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="op5">
+                  <div class="item-icon">📊</div>
+                  <div class="item-details">
+                    <h4>OP5 MONITORING</h4>
+                    <p>Distributed monitoring system deployment</p>
+                    <div class="item-tags">
+                      <span class="tag">op5</span>
+                      <span class="tag">AWS</span>
+                      <span class="tag">CentOS</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="inventory-item" data-project="yarinator">
+                  <div class="item-icon">🔧</div>
+                  <div class="item-details">
+                    <h4>YARINATOR</h4>
+                    <p>Network configuration backup system</p>
+                    <div class="item-tags">
+                      <span class="tag">Ruby</span>
+                      <span class="tag">GitLab</span>
+                      <span class="tag">SNMP</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Screen -->
+      <section id="contact-screen" class="screen">
+        <div class="screen-content">
+          <div class="dialogue-box">
+            <div class="dialogue-header">
+              <span class="dialogue-title">SEND MESSAGE</span>
+              <div class="window-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">□</span>
+                <span class="control close">✕</span>
+              </div>
+            </div>
+            <div class="dialogue-content">
+              <div class="contact-container">
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span class="contact-text">sergio.xga@gmail.com</span>
+                  </div>
+                  <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <span class="contact-text">+52 6563171752</span>
+                  </div>
+                  <div class="contact-item">
+                    <span class="contact-icon">🌐</span>
+                    <a href="https://github.com/sergio-xga" class="contact-link">GitHub</a>
+                  </div>
+                  <div class="contact-item">
+                    <span class="contact-icon">💼</span>
+                    <a href="https://www.linkedin.com/in/sergioxga/" class="contact-link">LinkedIn</a>
+                  </div>
+                </div>
+                <div class="message-form">
+                  <form class="pixel-form">
+                    <div class="form-group">
+                      <label class="form-label">NAME:</label>
+                      <input type="text" class="pixel-input" placeholder="ENTER YOUR NAME">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">EMAIL:</label>
+                      <input type="email" class="pixel-input" placeholder="ENTER YOUR EMAIL">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">MESSAGE:</label>
+                      <textarea class="pixel-textarea" placeholder="ENTER YOUR MESSAGE"></textarea>
+                    </div>
+                    <button type="submit" class="pixel-button">SEND MESSAGE</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Game Footer -->
+    <footer class="game-footer">
+      <div class="footer-content">
+        <div class="status-bar">
+          <span class="status-text">READY</span>
+          <span class="time" id="game-time">00:00</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="project-modal">
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <div class="dialogue-box">
+          <div class="dialogue-header">
+            <span class="dialogue-title" id="modal-title">PROJECT DETAILS</span>
+            <div class="window-controls">
+              <span class="control minimize">−</span>
+              <span class="control maximize">□</span>
+              <span class="control close modal-close">✕</span>
+            </div>
+          </div>
+          <div class="dialogue-content">
+            <div class="project-info">
+              <div class="project-header">
+                <div class="project-icon" id="modal-icon">🌐</div>
+                <div class="project-details">
+                  <h3 id="modal-project-title">PROJECT NAME</h3>
+                  <p id="modal-description">Project description goes here...</p>
+                  <div class="project-tech" id="modal-tech">
+                    <!-- Tech tags will be inserted here -->
+                  </div>
+                </div>
+              </div>
+              
+              <div class="image-gallery">
+                <div class="gallery-header">
+                  <span class="gallery-title">📷 SCREENSHOTS</span>
+                  <div class="gallery-controls">
+                    <button class="gallery-btn prev-btn" id="prev-image">‹</button>
+                    <span class="image-counter" id="image-counter">1 / 1</span>
+                    <button class="gallery-btn next-btn" id="next-image">›</button>
+                  </div>
+                </div>
+                <div class="gallery-container">
+                  <div class="gallery-viewport">
+                    <div class="gallery-track" id="gallery-track">
+                      <!-- Images will be inserted here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="project-specs">
+                <div class="spec-grid">
+                  <div class="spec-item">
+                    <span class="spec-label">TECHNOLOGIES:</span>
+                    <span class="spec-value" id="modal-technologies"></span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">LANGUAGES:</span>
+                    <span class="spec-value" id="modal-languages"></span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">COLLABORATORS:</span>
+                    <span class="spec-value" id="modal-collaborators"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./javascripts/script.js"></script>
+</body>
+</html>
